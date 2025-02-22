@@ -1,3 +1,5 @@
+Download vosk [text](vosk-model-en-us-0.42-gigaspeech.zip)
+
 SYNTHIA_MIC="HyperX QuadCast S" SYNTHIA_VAD_ENABLED=false python realtimespeech.py
 
 
