@@ -1,0 +1,19 @@
+{
+  "name": "realtimespeech",
+  "version": "1.0.0",
+  "description": "Real-time speech recognition with VAD support",
+  "main": "realtimespeech.js",
+  "scripts": {
+    "start": "./run_node.sh",
+    "clean": "rm -rf node_modules package-lock.json .venv output/*.mp3"
+  },
+  "dependencies": {
+    "@ricky0123/vad-node": "^0.0.2",
+    "axios": "^1.6.7",
+    "node-vad": "^1.1.4",
+    "vosk": "^0.3.39"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

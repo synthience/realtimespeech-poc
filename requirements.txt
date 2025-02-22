@@ -1,0 +1,8 @@
+vosk==0.3.44
+sounddevice
+soundfile
+webrtcvad
+numpy
+requests
+edge-tts
+streamlit
